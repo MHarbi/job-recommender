@@ -1,5 +1,5 @@
 # Job Recommender
-This application is intended to assist you on your job search by tracking your occupational interests as you bookmark and apply for jobs.
+It is a Case-Based Approach to Job Recommendation. This application is intended to assist you on your job search by tracking your occupational interests as you bookmark and apply for jobs.
 
 ### contribution
 Mohammed Alharbi, Jonathan Velez, Yuhan Wang, Xin Zhao
