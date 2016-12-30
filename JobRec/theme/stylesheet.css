@@ -1,0 +1,358 @@
+/*
+PILLab Color Palette:
+Red: #EB2027
+Orange:#F27B27
+Blue: #00718B
+LightBlue: #26A8E0
+Violet: #B070AE
+*/
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: DengXian, sans-serif;
+}
+
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #F8F8F8;
+}
+
+#wrap
+{
+    max-width: 1100px;
+    width: 1300px; /* change this value to percentage to make responsive */
+    min-height: 100%;
+    position: relative;
+    margin: auto;
+    background: #FFFFFF;
+}
+
+#header-wrap
+{
+    padding: 10px;
+}
+
+.logo img
+{
+    background: #FFFFFF;
+    padding: 0px;
+    margin: 0;
+    width: auto;
+    height: 100px;
+    margin: 0 0 10px 20px;
+}
+
+.logo a
+{
+    float: right;
+}
+
+#body-wrap
+{
+    padding: 10px;
+    padding-bottom: 100px;   /* Height of the footer */
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    background: #FFFFFF;
+    overflow: auto;
+}
+
+.body-div
+{
+    float: left;
+    margin: 0;
+    min-width: 50%;
+    max-width: 50%;
+    height: 300px;
+    display: table;
+    position: relative;
+    overflow: auto;
+}
+
+.body-div-wide
+{
+    float: left;
+    padding: 0 0 100px 0;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+.body-div:after, .body-div-wide:after
+{
+    clear: both;
+}
+
+#footer-wrap
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;   /* Height of the footer */
+    text-align: justify;
+    vertical-align: top;
+    background: #707070; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#A8A8A8, #383838); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#A8A8A8, #383838); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#A8A8A8, #383838); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#A8A8A8, #383838); /* Standard syntax */
+}
+
+#footer-wrap:after
+{
+    content: '';
+    width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+    display: inline-block;
+}
+
+h1
+{
+    color: #EB2027;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    clear: both;
+}
+
+h2
+{
+    color: #F27B27;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    clear: both;
+}
+
+p
+{
+    color: #000000;
+}
+
+a
+{
+    text-decoration: none;
+    color: #00718B;
+    font-weight: bold;
+}
+
+a:hover
+{
+    color: #26A8E0;
+}
+
+.current
+{
+    color: #26A8E0;
+}
+
+/* ******************** LOGIN PAGE ******************** */
+
+.banner img
+{
+    min-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    overflow: auto;
+    float: left;
+}
+
+.login
+{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#login-form
+{
+    width: 200px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#login-form input
+{
+    margin: 0 0 5px 0;
+}
+
+input[type=submit]#login-button
+{
+    background-color: #00718B;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]#login-button:hover
+{
+    background: #26A8E0;
+}
+
+span.forgot-password
+{
+    font-size: 14px;
+    float: right;
+}
+
+/* ******************** TABS ******************** */
+
+/* Style the list */
+ul.tab 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+ul.tab li 
+{
+    float: left;
+}
+
+ul.tab li a 
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover 
+{
+    background-color: #ddd;
+}
+
+ul.tab li a:focus, .active 
+{
+    background-color: #ccc;
+}
+
+.tabcontent 
+{
+    display: none;
+    height: 600px;
+    padding: 6px 12px;
+    margin: 0 0 20px 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: auto;
+}
+
+/* ******************** JOBSEARCH & RECOMMENDATIONS ******************** */
+
+#job-search 
+{
+    margin: 0 auto;
+}
+
+table.records
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.records th, .records td
+{
+    padding: 0.5rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+th.short-header
+{
+    width: 40px;
+}
+
+.right-align 
+{
+    text-align: right !important;
+}
+
+tr.job-item-end
+{
+    border-style: double;
+    border-width: 0 0 4px 0;
+    border-color: #EB2027;
+}
+
+.search-table 
+{
+    width: 200px; 
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+}
+
+#search-button
+{
+    background-color: #00718B;
+    color: white;
+    padding: 10px 4px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 199px;
+}
+
+#search-button:hover
+{
+    background: #26A8E0;
+}
+
+.job-button 
+{
+    float: right; 
+    background-color: #00718B; 
+    color: white; 
+    margin: 20px; 
+    padding: 10px 4px; 
+    margin: 5px 0; 
+    border: none; 
+    cursor: pointer;
+}
+
+.job-button:hover
+{
+    background-color: #26A8E0;
+}
+
+.divider
+{
+    float: right; 
+    width: 4px; 
+    height: auto;
+}
+
+#job-details
+{
+    height: auto;
+}
+
+#details
+{
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 40px 0 0 0; 
+}
+
+/* ******************** JOB DETAILS ******************** */
