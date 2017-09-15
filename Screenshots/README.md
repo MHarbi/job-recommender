@@ -1,4 +1,4 @@
-##[](#README) Landing Page
+## Landing Page
 ![](home%20page.png)
 
 ## Registeration Page
