@@ -5,7 +5,7 @@ It is a Case-Based Approach to Job Recommendation. This application is intended 
 Mohammed Alharbi, Jonathan Velez, Yuhan Wang, Xin Zhao
 
 ### Screenshots
-![Click Here](Screenshots)
+![Click Here](Screenshots#README)
 
 ## Introduction
 Adaptive recommender systems are becoming more common-place across various domains, and they have been especially significant in e-commerce domains where a user’s preferences and feedback can be used to personalize sales support and product suggestions. Personalized recommendations are an excellent way to improve user experience regardless of the domain, but the implementation must be appropriate within the interaction context. Adaptive recommender systems essentially provide users a more intelligent approach to navigating and searching complex information spaces by reducing the search space to items that are related to the user’s profile and making the user aware of those items most likely to fit their interests (Smyth, 2007). 
